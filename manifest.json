@@ -1,0 +1,15 @@
+{
+  "name": "DOGS",
+  "description": "Displays Doggies",
+  "version": "0.1",
+  "manifest_version": 2,
+  "offline_enabled": false,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": { "128": "face128x128.png" },
+  "permissions": [ "webview" 
+  ] 
+}

@@ -1,0 +1,40 @@
+body {
+    background-image:url('background.jpg');
+    background-repeat: repeat;
+    }
+
+nav.randomiser {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+#results {
+    margin-top: 1em;
+    width: 100%;
+    height: 100%
+    }
+
+button {
+  background: #3498db;
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  border-style: none;
+  outline: none;
+}
+
+.last {
+    margin-right: 2em;
+}
+
+button:hover {
+  background: #3cb0fd;
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
